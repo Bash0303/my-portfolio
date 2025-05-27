@@ -22,20 +22,24 @@ const Home = () => {
   return (
     <div className="max-w-6xl mx-auto px-6 py-12">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-        <div className="lg:w-1/2">
-          <div className="relative h-80 w-full rounded-xl overflow-hidden shadow-lg">
+        {/* Image Slider - Added responsive height and object-contain */}
+        <div className="w-full lg:w-1/2">
+          <div className="relative h-64 sm:h-80 w-full rounded-xl overflow-hidden shadow-lg">
             {images.map((image, index) => (
               <img
                 key={index}
                 src={image}
                 alt={`Bashir ${index + 1}`}
-                className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${index === currentImage ? 'opacity-100' : 'opacity-0'}`}
+                className={`absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-1000 ${
+                  index === currentImage ? 'opacity-100' : 'opacity-0'
+                }`}
               />
             ))}
           </div>
         </div>
 
-        <div className="lg:w-1/2 space-y-6">
+        {/* Text Content - Unchanged from your original */}
+        <div className="w-full lg:w-1/2 space-y-6">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -67,11 +71,11 @@ const Home = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="flex space-x-4"
+            className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
           >
             <Link
               to="/contact"
-              className="bg-blue-600 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition"
+              className="bg-blue-600 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition text-center"
             >
               Hire Me
             </Link>
@@ -80,7 +84,7 @@ const Home = () => {
               href="https://wa.me/2349063836085"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-600 hover:bg-green-700 dark:bg-green-800 dark:hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium flex items-center space-x-2 transition"
+              className="bg-green-600 hover:bg-green-700 dark:bg-green-800 dark:hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium flex items-center justify-center space-x-2 transition"
             >
               <FaWhatsapp />
               <span>Chat on WhatsApp</span>
