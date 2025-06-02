@@ -10,9 +10,34 @@ const projects = [
     description: 'An automated solution for tracking and managing student or employee attendance.'
   },
   {
+    title: 'Clearance Management System',
+    description: 'An automated Clearance System that manage student record and review by Admin base on what student submmited for clearance .'
+  },
+  {
+    title: 'Design and Implementation of Online Library Management System',
+    description: 'An automated Library Management System that managed books for student and issue book.'
+  },
+  {
+    title: 'Development of Automated predictive System for Bipolar Disorder using LSTM',
+    description: 'This Project was developed with Python, it is a project that training system for prediction base on Dataset collected.'
+  },
+  {
+    title: 'Carbon footprint Awareness Website with resources',
+    description: 'A carbon Print Websites that educates individuals about their environmental impact and provides practical resources to help them reduce their carbon footprint.'
+  },
+  {
+    title: 'Development of Capsule Network base on Bone tumor Detection',
+    description: 'This Project was developed with Python, it is a project that training system for prediction base on Dataset collected.'
+  },
+  {
+    title: 'Performance Comparison of Mutual Information and Particle Swarm Optimization features selection Algorithm on the Random Forrest',
+    description: 'This Project was developed with Python, it implement Mutual Information and Particle Swarm Optimization algorithms for feature selection on a heart disase dataset.'
+  },
+  {
     title: 'My Portfolio',
     description: 'This responsive portfolio website built with React, Vite, and Tailwind CSS.'
-  }
+  } 
+  
 ]
 
 const Projects = () => {
