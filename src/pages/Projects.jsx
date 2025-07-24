@@ -14,6 +14,10 @@ const projects = [
     description: 'An automated Clearance System that manage student record and review by Admin base on what student submmited for clearance .'
   },
   {
+    title: 'HR Management System',
+    description: 'A system that manage staff, keep staff records, add event and it include leave management .'
+  },
+  {
     title: 'Design and Implementation of Online Library Management System',
     description: 'An automated Library Management System that managed books for student and issue book.'
   },

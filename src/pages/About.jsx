@@ -106,7 +106,7 @@ const About = () => {
                      <tr>
                       <td className="px-6 py-4 whitespace-nowrap text-gray-700 dark:text-gray-300 font-medium">Backend</td>
                       <td className="px-6 py-4 whitespace-nowrap text-gray-600 dark:text-gray-400">
-                        PHP & MYSQL
+                        PHP, NODE.JS, MYSQL & MONGODB/Mongose 
                       </td>
                     </tr>
                      <tr>
