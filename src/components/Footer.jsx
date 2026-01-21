@@ -17,8 +17,8 @@ const Footer = () => {
           <div className="flex flex-col space-y-2">
             <div className="flex items-center space-x-2">
               <FaPhone className="text-blue-400" />
-              <a href="tel:09063836085" className="hover:text-blue-400 transition">
-                09063836085
+              <a href="tel:09079946343" className="hover:text-blue-400 transition">
+                09079946343
               </a>
             </div>
             <div className="flex items-center space-x-2">

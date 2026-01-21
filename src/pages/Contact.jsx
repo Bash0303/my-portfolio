@@ -25,10 +25,10 @@ const Contact = () => {
             <div>
               <h3 className="font-medium text-gray-700 dark:text-gray-300">Phone</h3>
               <a 
-                href="tel:09063836085" 
+                href="tel:09079946343" 
                 className="text-blue-600 dark:text-blue-400 hover:underline"
               >
-                09063836085
+                09079946343
               </a>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Contact = () => {
             <div>
               <h3 className="font-medium text-gray-700 dark:text-gray-300">WhatsApp</h3>
               <a 
-                href="https://wa.me/2349063836085" 
+                href="https://wa.me/2349074946343" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-600 dark:text-blue-400 hover:underline"
