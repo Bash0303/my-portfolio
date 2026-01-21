@@ -100,13 +100,13 @@ const About = () => {
                      <tr>
                       <td className="px-6 py-4 whitespace-nowrap text-gray-700 dark:text-gray-300 font-medium">Frontend</td>
                       <td className="px-6 py-4 whitespace-nowrap text-gray-600 dark:text-gray-400">
-                        HTML, CSS, JavaScript, ReactJS & Tailwind CSS
+                        HTML, CSS, Streamlit Python Library,JavaScript, ReactJS & Tailwind CSS
                       </td>
                     </tr>
                      <tr>
                       <td className="px-6 py-4 whitespace-nowrap text-gray-700 dark:text-gray-300 font-medium">Backend</td>
                       <td className="px-6 py-4 whitespace-nowrap text-gray-600 dark:text-gray-400">
-                        PHP, NODE.JS, MYSQL & MONGODB/Mongose 
+                        PHP, Python NODE.JS, MYSQL & MONGODB/Mongose 
                       </td>
                     </tr>
                      <tr>

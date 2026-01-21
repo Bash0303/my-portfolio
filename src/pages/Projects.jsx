@@ -1,6 +1,14 @@
 import { motion } from 'framer-motion'
 
 const projects = [
+   {
+    title: 'AjoSave Fintech App',
+    description: 'A group Saving App designed to make traditional Saving easier.'
+  },
+   {
+    title: 'Ajayi Crowther University Staff Portal',
+    description: 'A Full-Stack Web for Ajayi Crowther University Staff.'
+  },
   {
     title: 'Departmental Course Allocation',
     description: 'A system for managing and allocating courses to faculty members in academic departments.'

@@ -64,7 +64,7 @@ const Home = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-xl text-gray-600 dark:text-gray-300"
           >
-            A Computer Scientist & Web Developer
+            A Creative Computer Scientist & a Software Developer
           </motion.p>
 
           <motion.div
@@ -81,7 +81,7 @@ const Home = () => {
             </Link>
 
             <a
-              href="https://wa.me/2349063836085"
+              href="https://wa.me/2349079946343"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 hover:bg-green-700 dark:bg-green-800 dark:hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium flex items-center justify-center space-x-2 transition"
